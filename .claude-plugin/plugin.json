@@ -1,0 +1,12 @@
+{
+  "name": "play-store-review",
+  "description": "Evaluates code against Google Play Developer Program Policies for Kotlin, Java, React Native, and Expo apps",
+  "version": "1.0.0",
+  "author": {
+    "name": "enes-1"
+  },
+  "homepage": "https://github.com/enes-1/play-store-review-skill",
+  "repository": "https://github.com/enes-1/play-store-review-skill",
+  "license": "MIT",
+  "keywords": ["google", "play-store", "review", "guidelines", "android", "kotlin", "java", "react-native", "expo"]
+}

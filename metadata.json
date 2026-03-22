@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "organization": "enes-1",
+  "date": "March 2026",
+  "abstract": "Exhaustive guide for evaluating Kotlin, Java, Flutter, React Native, and Expo app code against Google Play Developer Program Policies. Covers ALL major sections: Section 1 Restricted Content (sexual content, hate speech, violence, financial services, real-money gambling), Section 2 Impersonation & IP (copyright, trademark, impersonation), Section 3 Privacy & Security (user data, permissions, malware, deceptive behavior, Device and Network Abuse), Section 4 Monetization & Ads (Google Play Billing, subscriptions, ad networks, disruptive ads, Families Policy), Section 5 Store Listing & Promotion (metadata, user ratings, incentivized downloads), and Section 6 Spam & Functionality (repetitive content, webviews, broken apps, crash/ANR threshold). Includes code patterns to flag, checklists for each guideline, and pre-submission verification.",
+  "references": [
+    "https://play.google.com/about/developer-content-policy/",
+    "https://developer.android.com/distribute/play-policies",
+    "https://support.google.com/googleplay/android-developer/answer/9888072",
+    "https://support.google.com/googleplay/android-developer/answer/10787469"
+  ]
+}
