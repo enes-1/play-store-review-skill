@@ -52,10 +52,14 @@ Do not request permissions that are not strictly necessary for the core function
 ### Background Location (`ACCESS_BACKGROUND_LOCATION`)
 To use background location, you must submit a video to Google Play showing exactly how the user triggers it and why it's necessary.
 
-## 3.4 Malware and Deceptive Behavior
+### Photo and Video Permissions (2025 Update)
+As of 2025, apps are highly restricted from requesting `READ_MEDIA_IMAGES` and `READ_MEDIA_VIDEO`. You must only request these if it is directly tied to the core functionality of the app. Otherwise, use the standard system photo picker (Storage Access Framework).
+
+## 3.4 Malware and Deceptive Behavior (Riskware)
 
 Any app exhibiting malicious behavior will be terminated.
 - **Dynamic Code Loading**: Google expressly forbids downloading executable code (.dex, .jar, .so) from third-party servers. All code must be in the APK/AAB or delivered via Play Feature Delivery.
+- **Riskware (formerly Maskware)**: Apps that use exploitation techniques to bypass device security or obfuscate malware (Riskware) will be immediately terminated.
 
 **Kotlin Example (Dynamic Code - SUSPENSION RISK):**
 ```kotlin

@@ -5,8 +5,9 @@ Google Play strictly dictates the technical specifications, performance metrics,
 ## 7.1 Target API Level Requirements
 
 Every year, Google Play updates its target API level requirement to ensure apps take advantage of the latest Android security and performance enhancements.
-- **New Apps**: Must target an Android API level within one year of the most recent major Android version release.
+- **New Apps**: Must target an Android API level within one year of the most recent major Android version release (e.g., target API level 35/Android 15 by August 31, 2025).
 - **App Updates**: Must also update their target API level within this window to push an update.
+- **Play Billing Library**: As of August 2025, all new apps and updates MUST use Play Billing Library version 7 or newer.
 - **Consequence**: Apps failing to update their target API will be hidden from new users on newer Android versions.
 
 **Checklist:**

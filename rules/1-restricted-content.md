@@ -11,6 +11,7 @@ Google strictly prohibits apps that contain or promote:
 - **Violence**: Gratuitous violence, blood, gore, or animal cruelty.
 - **Self-Harm**: Content promoting suicide, eating disorders, or self-injury.
 - **Dangerous Organizations**: Content related to terrorism or criminal groups.
+- **Age-Restricted Functionality**: As of 2025, if your app includes dating, matchmaking, or real-money gambling features, you MUST put measures in place (via Play Console tools) to actively block minors.
 
 ### Checklist
 - [ ] Remove all overly explicit sexual or violent imagery.
@@ -59,3 +60,4 @@ If your app targets children:
 - Must NOT collect precise location or device IDs (IMEI, MAC).
 - Ads must only come from Google Play Certified Ad Networks targeting children.
 - Neutral age screens must be used for age gating.
+- **Age Signals API**: By January 2026, developers collecting age data for customized experiences must strictly rely on the official Age Signals API data.
